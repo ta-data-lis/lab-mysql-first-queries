@@ -1,3 +1,83 @@
+1. Which are the different genres?
+
+The different genres are:
+
+Games
+Productivity
+Weather
+Shopping
+Reference
+Finance
+Music
+Utilities
+Travel
+Social Networking
+Sports
+Business
+Health & Fitness
+Entertainment
+Photo & Video
+Navigation
+Education
+Lifestyle
+Food & Drink
+News
+Book
+Medical
+Catalogs
+
+
+
+2. Which is the genre with more apps rated?
+
+The genre with more apps rated is Games with 49 944 436 rates.
+
+
+
+3. Which is the genre with more apps?
+
+The genre with more apps is Games with 2 387 apps.
+
+
+
+#4. Which is the one with less?
+
+The genre with less apps is Catalogs with 7 apps.
+
+
+
+5. Take the 10 apps most rated.
+
+The 10 most rated apps are:
+Facebook
+Instagram
+Clash of Clans
+Temple Run
+Pandora - Music & Radio
+Pinterest
+Bible
+Candy Crush Saga
+Spotify Music
+Angry Birds
+
+
+
+6. Take the 10 apps best rated by users.
+
+The 10 apps best rated by users are:
+:) Sudoku +
+King of Dragon Pass
+TurboScan™ Pro - document & receipt scanner: scan multiple pages and photos to PDF
+Plants vs. Zombies
+Learn to Speak Spanish Fast With MosaLingua
+Plants vs. Zombies HD
+The Photographer's Ephemeris
+▻Sudoku +
+Flashlight Ⓞ
+Infinity Blade
+
+
+
 7. Take a look on the data you retrieved in the question 5. Give some insights.
 
 They are all free apps. They're mainly social networking and games. Total rating counts is 14 830 816.

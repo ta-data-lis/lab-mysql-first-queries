@@ -13,10 +13,10 @@ SELECT prime_genre,count(prime_genre) FROM applestore group by prime_genre order
 #catalogs
 
 #5. Take the 10 apps most rated.
-SELECT * FROM applestore order by rating_count_tot desc limit 10;
+SELECT track_name FROM applestore order by rating_count_tot desc limit 10;
 
 #6. Take the 10 apps best rated by users.
-SELECT * FROM applestore order by user_rating desc limit 10;
+SELECT track_name FROM applestore order by user_rating desc limit 10;
 
 #7. Take a look on the data you retrieved in the question 5. Give some insights.
 #They are all free apps. They're mainly social networking and games. Total rating counts is 14 830 816.

@@ -2,7 +2,7 @@
 
 # Lab | My first queries
 
-Please, connect to the Data Bootcamp Google Database using the credentials provided in class. Choose the database called *appleStore* (NOT *appleStore2*!). Use the *data* table to query the data about Apple Store Apps and answer the following questions: 
+Please, import the .csv database called *AppleStore*. Use the *data* table to query the data about Apple Store Apps and answer the following questions: 
 
 **1. Which are the different genres?**
 

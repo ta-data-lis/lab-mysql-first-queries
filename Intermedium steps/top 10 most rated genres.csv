@@ -1,0 +1,11 @@
+prime_genre,sum(rating_count_tot)
+Games,51957704
+"Social Networking",7591181
+"Photo & Video",5004848
+Music,3979230
+Entertainment,3978781
+Shopping,2261757
+"Health & Fitness",1782356
+Weather,1597012
+Sports,1596495
+Utilities,1521930

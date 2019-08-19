@@ -40,16 +40,22 @@ SELECT track_name, user_rating, rating_count_tot FROM AppleStore WHERE user_rati
 SELECT track_name, user_rating, rating_count_tot FROM AppleStore WHERE user_rating = 5 ORDER BY rating_count_tot DESC LIMIT 3;
 
 #**11. Do people care about the price?** Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
-SELECT price FROM AppleStore ORDER BY price DESC; #prices range (essencially) between 0 and 10.
+SELECT price FROM AppleStore ORDER BY price DESC; #doesn't work very well
+SELECT price FROM AppleStore ORDER BY length(price) ASC, price ASC; #prices range between 0 and 299.99. This seems to work (from the above)
+SELECT price FROM AppleStore ORDER BY price + 0 ASC; #this also seems to work to return the range of prices
+
 #price:
-SELECT AVG(price) FROM AppleStore WHERE user_rating = 5; #1,65
-SELECT AVG(price) FROM AppleStore WHERE user_rating = 4; #2,21
-SELECT AVG(price) FROM AppleStore WHERE user_rating = 3; #1,28
-SELECT AVG(price) FROM AppleStore WHERE user_rating = 2; #1,15
-SELECT AVG(price) FROM AppleStore WHERE user_rating = 1; #1,93
+SELECT AVG(price) FROM AppleStore WHERE user_rating = 5; #1,65$
+SELECT AVG(price) FROM AppleStore WHERE user_rating = 4; #2,21$
+SELECT AVG(price) FROM AppleStore WHERE user_rating = 3; #1,28$
+SELECT AVG(price) FROM AppleStore WHERE user_rating = 2; #1,15$
+SELECT AVG(price) FROM AppleStore WHERE user_rating = 1; #1,93$
 #rating:
-SELECT AVG(user_rating) FROM AppleStore WHERE price = 0; #3,38
-SELECT AVG(user_rating) FROM AppleStore WHERE price BETWEEN 1 AND 5; #3,82
-SELECT AVG(user_rating) FROM AppleStore WHERE price BETWEEN 5 AND 10; #3,78
+SELECT AVG(user_rating) FROM AppleStore WHERE price = 0; #3,38*
+SELECT AVG(user_rating) FROM AppleStore WHERE price BETWEEN 0.99 AND 4.99; #3,72*
+SELECT AVG(user_rating) FROM AppleStore WHERE price BETWEEN 5.99 AND 9.99; #3,78*
+SELECT AVG(user_rating) FROM AppleStore WHERE price BETWEEN 9.99 AND 20.99; #3,49*
+SELECT AVG(user_rating) FROM AppleStore WHERE price BETWEEN 20.99 AND 299.99; #3.63*
+
 #My conclusion is that people don't really care about the price, as I investigated the average price per rating ([1-5]stars) and doesn't vary much,
 #as well as the average rating per ranges of prices, which also doesn't vary much. 

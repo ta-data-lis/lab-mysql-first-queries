@@ -1,11 +1,3 @@
-SELECT COUNT(DISTINCT(`text_reviews_count`)) FROM books WHERE `# num_pages` BETWEEN 200 AND 500;
-SELECT COUNT(DISTINCT(`text_reviews_count`)) FROM books WHERE `# num_pages` BETWEEN 1500  AND 2500;
-
-SELECT AVG(DISTINCT(average_rating)) FROM books WHERE `# num_pages` BETWEEN 200 AND 500;
-
-SELECT AVG(DISTINCT(average_rating)) FROM books WHERE `# num_pages` BETWEEN 1500  AND 2500;
-
-
 #**1. Which are the different genres?**
 SELECT DISTINCT(prime_genre) FROM AppleStore;
 

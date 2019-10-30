@@ -1,1 +1,94 @@
 
+**1. Which are the different genres?**
+
+Games
+Productivity
+Weather
+Shopping
+Reference
+Finance
+Music
+Utilities
+Travel
+Social Networking
+Sports
+Business
+Health & Fitness
+Entertainment
+Photo & Video
+Navigation
+Education
+Lifestyle
+Food & Drink
+News
+Book
+Medical
+Catalogs
+
+**2. Which is the genre with more apps rated?**
+
+'Social Networking'
+
+**3. Which is the genre with more apps?**
+
+Games 
+
+**4. Which is the one with less?**
+
+Catalogs
+
+**5. Take the 10 apps most rated.**
+
+Facebook
+Instagram
+Clash of Clans
+Temple Run
+Pandora - Music & Radio
+Pinterest
+Bible
+Candy Crush Saga
+Spotify Music
+Angry Birds
+
+**6. Take the 10 apps best rated by users.**
+
+:) Sudoku +
+King of Dragon Pass
+TurboScan™ Pro - document & receipt scanner: scan multiple pages and photos to PDF
+Plants vs. Zombies
+Learn to Speak Spanish Fast With MosaLingua
+Plants vs. Zombies HD
+The Photographer's Ephemeris
+▻Sudoku +
+Flashlight Ⓞ
+Infinity Blade
+
+**7. Take a look on the data you retrieved in the question 5. Give some insights.**
+
+For the data in question five, we can see that the most used applications are social media apps.
+
+**8. Take a look on the data you retrieved in the question 6. Give some insights.**
+
+For the data in question six we can see that most for the apps are gaming apps.
+
+**9. Now compare the data from questions 5 and 6. What do you see?**
+
+That althought the apps in Q6 have a bigger ratting, the quantity of persons that ratting them  is less.
+
+**10. How could you take the top 3 regarding the user ratings but also the number of votes?**
+
+SELECT track_name, user_rating, rating_count_tot 
+FROM applestore 
+GROUP BY track_name
+ORDER BY user_rating and rating_count_tot DESC
+LIMIT 3;
+
+Result:
+
+Pocket Arcade Story	3.5	41
+Escape from many tutoring school of test.	4	1
+Pixel Strike-Sniper zombies shooting games	4	42
+
+**11. Does people care about the price?** Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
+
+Yes, the top 10 rattings apps cost less than 20, wich shows than there are less persons interrested in spending money in apps. On the other side, if we organize the data by the ratting of the apps we can find more expensive apps on the top 10.

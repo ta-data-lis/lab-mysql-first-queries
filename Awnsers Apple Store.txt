@@ -1,0 +1,82 @@
+![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
+
+# Lab | My first queries
+
+Please, import the .csv database called *AppleStore.csv*. Use the *data* table to query the data about Apple Store Apps and answer the following questions: 
+
+**1. Which are the different genres?**
+Games
+Productivity
+Weather
+Shopping
+Reference
+Finance
+Music
+Utilities
+Travel
+Social Networking
+Sports
+Business
+Health & Fitness
+Entertainment
+Photo & Video
+Navigation
+Education
+
+
+**2. Which is the genre with more apps rated?**
+2974676		Social Networking
+
+
+**3. Which is the genre with more apps?**
+Games		3808
+
+
+**4. Which is the one with less?**
+Catalogs	10
+
+
+**5. Take the 10 apps most rated.**
+2974676	Facebook
+2161558	Instagram
+2130805	Clash of Clans
+1724546	Temple Run
+1126879	Pandora - Music & Radio
+1061624	Pinterest
+985920	Bible
+961794	Candy Crush Saga
+878563	Spotify Music
+824451	Angry Birds
+
+
+**6. Take the 10 apps best rated by users.**
+5	:) Sudoku +
+5	King of Dragon Pass
+5	TurboScan™ Pro - document & receipt scanner: scan multiple pages and photos to PDF
+5	Plants vs. Zombies
+5	Learn to Speak Spanish Fast With MosaLingua
+5	Plants vs. Zombies HD
+5	The Photographer's Ephemeris
+5	▻Sudoku +
+5	Flashlight Ⓞ
+5	Infinity Blade
+
+
+**7. Take a look on the data you retrieved in the question 5. Give some insights.**
+The top 10 at question 5 are mostly very well known apps, that are games, social or music apps. 
+
+**8. Take a look on the data you retrieved in the question 6. Give some insights.**
+There are a few double apps in question 6, and the apps are mostly not about sharing things with others. 
+
+**9. Now compare the data from questions 5 and 6. What do you see?**
+In 6 there are no social apps and you can't interact with other users, they are mostly for the user itself. Could be that 6 are 
+more apps that people find them selfs to fill needs they know they have and that 5 are apps that people download without 
+actually needing them but they fill the (first) latent need to be in touch throught the digital world with others. 
+
+**10. How could you take the top 3 regarding the user ratings but also the number of votes?**
+
+**11. Does people care about the price?** Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
+
+
+## Deliverables 
+You need to submit a `.sql` file that includes the queries used to answer the questions above, as well as an `.md` file including your answers. 

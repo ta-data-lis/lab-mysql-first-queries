@@ -1,9 +1,3 @@
-![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
-
-# Lab | My first queries
-
-Please, import the .csv database called *AppleStore.csv*. Use the *data* table to query the data about Apple Store Apps and answer the following questions: 
-
 -- 1. Which are the different genres?
 select distinct prime_genre
 from APPLE;
@@ -34,7 +28,12 @@ SELECT track_name, user_rating FROM APPLE  ORDER BY user_rating DESC LIMIT 10;
 -- 7. Take a look on the data you retrieved in the question 5. Give some insights.
 
 SELECT track_name, SUM(rating_count_tot), prime_genre FROM APPLE GROUP BY track_name, prime_genre ORDER BY SUM(rating_count_tot) DESC LIMIT 20;
+
 -- 8. Take a look on the data you retrieved in the question 6. Give some insights.
+SELECT track_name, rating_count_tot, user_rating
+FROM APPLE
+ORDER BY rating_count_tot DESC
+LIMIT 10;
 
 -- 9. Now compare the data from questions 5 and 6. What do you see?
 
@@ -44,8 +43,3 @@ SELECT * FROM APPLE ORDER BY user_rating DESC, rating_count_tot DESC LIMIT 3;
 SELECT * FROM APPLE ORDER BY price DESC, rating_count_tot DESC LIMIT 10;
 SELECT * FROM APPLE ORDER BY user_rating DESC, rating_count_tot DESC LIMIT 10;
 -- If you see the ratting and the price dont have so much relation
-
-
-
-## Deliverables 
-You need to submit a `.sql` file that includes the queries used to answer the questions above, as well as an `.md` file including your answers. 

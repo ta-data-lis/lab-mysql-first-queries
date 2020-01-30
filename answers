@@ -1,20 +1,69 @@
 1. Which are the different genres?
+Games
+Productivity
+Weather
+Shopping
+Reference
+Finance
+Music
+Utilities
+Travel
+Social Networking
+Sports
+Business
+Health & Fitness
+Entertainment
+Photo & Video
+Navigation
+Education
+Lifestyle
+Food & Drink
+News
+Book
+Medical
+Catalogs
 
 2. Which is the genre with more apps rated?
+Wheater
 
 3. Which is the genre with more apps?
+Wheater
 
 4. Which is the one with less?
+Book
 
 5. Take the 10 apps most rated.
+eBook: War and Peace	          Book
+恵方コンパス.	                    Navigation
+Jourist Weltübersetzer	        Travel
+「宅建士」過去問題《受験用》	       Education
+iSleeping by iSommeil SARL	     Medical
+Der Feueralarm	                 Entertainment
+ファッション通販 ZOZOTOWN	          Shopping
+Bowitter for iPhone	             Social Networking
+出会い系アプリ i-Mail（アイメール）	  Social Networking
+iLoan Calc (Loan calculator)	   Finance
 
 6. Take the 10 apps best rated by users.
+「宅建士」過去問題《受験用》	        Education
+恵方コンパス.	                     Navigation
+出会い系アプリ i-Mail（アイメール）  	Social Networking
+Jourist Weltübersetzer	         Travel
+iLoan Calc (Loan calculator)	   Finance
+Bowitter for iPhone	             Social Networking
+eBook: War and Peace	           Book
+iSleeping by iSommeil SARL	     Medical
+ファッション通販 ZOZOTOWN	         Shopping
+Der Feueralarm	                 Entertainment
 
 7. Take a look on the data you retrieved in the question 5. Give some insights.
+None of the 10 apps most rated are from the genre with more apps.
 
 8. Take a look on the data you retrieved in the question 6. Give some insights.
+Social Networking is 
 
 9. Now compare the data from questions 5 and 6. What do you see?
+They are the same but in a different order. 
 
 10. How could you take the top 3 regarding the user ratings but also the number of votes?
 

@@ -60,4 +60,8 @@ Games like games the most, but bother to rate other stuff as well.
 
 **10. How could you take the top 3 regarding the user ratings but also the number of votes?**
 
-**11. Does people care about the price?** Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
+We could make a separate table and do an inner join?
+
+**11. Do people care about the price?** Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
+
+From the Top 20 apps, only two of them are paid and they're both games. Price matters.

@@ -1,21 +1,74 @@
 1. Which are the different genres?
+Games
+Productivity
+Weather
+Shopping
+Reference
+Finance
+Music
+Utilities
+Travel
+Social Networking
+Sports
+Business
+Health & Fitness
+Entertainment
+Photo & Video
+Navigation
+Education
+Lifestyle
+Food & Drink
+News
+Book
+Medical
+Catalogs
 
 2. Which is the genre with more apps rated?
+Games 
 
 3. Which is the genre with more apps?
+Games
 
 4. Which is the one with less?
+Catalogs
 
 5. Take the 10 apps most rated.
+Facebook	                USD	0	  2974676	  4	  Social Networking
+Instagram	                USD	0	  2161558	  5	  Photo & Video
+Clash of Clans	          USD	0	  2130805	  5	  Games
+Temple Run	              USD	0	  1724546	  5	  Games
+Pandora - Music & Radio	  USD	0	  1126879	  4	  Music
+Pinterest	                USD	0	  1061624	  5	  Social Networking
+Bible	                    USD	0	  985920	  5	  Reference
+Candy Crush Saga	        USD	0	  961794	  5	  Games
+Spotify Music	            USD	0	  878563	  5	  Music
+Angry Birds	              USD	0	  824451	  5	  Games
 
 6. Take the 10 apps best rated by users.
+Mileage Log | Fahrtenbuch	    USD	6	  8	      5	  Business
+Juxtaposer	                  USD	3	  3610	  5	  Photo & Video
+:) Sudoku +	                  USD	3	  11447	  5	  Games
+Escape the Sweet Shop Series	USD	0	  3	      5	  Games
+Bible	                        USD	0	  985920	5	  Reference
+Hurricane Pro	                USD	3	  2104	  5	  Weather
+Period Tracker Deluxe	        USD	2	  13350	  5	  Health & Fitness
+iQuran	                      USD	2	  2929	  5	  Reference
+PCalc - The Best Calculator	  USD	10	1117	  5	  Utilities
+FreeCell	                    USD	5	  6340	  5	  Games
 
 7. Take a look on the data you retrieved in the question 5. Give some insights.
+All of the apps from the 10 most rated are free.
 
 8. Take a look on the data you retrieved in the question 6. Give some insights.
+Some of those apps, expect for the Bible application that is also in the most rated apps, have a really small amounts of rating.
 
 9. Now compare the data from questions 5 and 6. What do you see?
+All of the application, expect for the Bible application that is also in the most rated apps, have a really small amounts of rating comparing to the amount of ratings retrieved in the previous question.
 
 10. How could you take the top 3 regarding the user ratings but also the number of votes?
+11	  284791396	    Solitaire by MobilityWare	    49618944	  USD	 5	 76720	  4017	  5	  5	  4.10.1	  4+	  Games	      38	  4	  11	1
+9	    284666222	    PCalc - The Best Calculator	  49250304	  USD	10	  1117	     4  	5	  5	  3.6.6	    4+	  Utilities	  37	  5	  1	1
+11097	1188375727	  Escape the Sweet Shop Series	90898432	  USD	 0	     3	     3  	5	  5	  1.0	      4+	  Games	      40	  0	  2	1
 
 11. Does people care about the price? 
+They seem to do: all of the most rated are free and the best rated by users are free or not expensive.

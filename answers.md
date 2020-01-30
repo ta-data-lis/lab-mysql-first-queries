@@ -2,7 +2,6 @@
 
 **1. Which are the different genres?**
 
-	prime_genre
 	Book
 	Business
 	Catalogs
@@ -29,9 +28,15 @@
 
 **2. Which is the genre with more apps rated?**
 
+Games	3357
+
 **3. Which is the genre with more apps?**
 
+Games	3808
+
 **4. Which is the one with less?**
+
+Catalogs	10
 
 **5. Take the 10 apps most rated.**
 

@@ -94,23 +94,18 @@ from applestore
 order by user_rating desc
 limit 10;
 
-# 7. Take a look on the data you retrieved in the question 5. Give some insights.
-
-# **8. Take a look on the data you retrieved in the question 6. Give some insights.**
-
-# **9. Now compare the data from questions 5 and 6. What do you see?**
-
-# **10. How could you take the top 3 regarding the user ratings but also the number of votes?**
+# 10. How could you take the top 3 regarding the user ratings but also the number of votes?
 select track_name, user_rating, rating_count_tot
 from applestore
 order by user_rating desc, rating_count_tot desc
 limit 3;
 
-# 11. Does people care about the price?** Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
-select price, rating_count_tot
+# 11. Does people care about the price? Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
+select price, avg(rating_count_tot)
 from applestore
-order by price asc;
-
+group by price
+order by price asc
+limit 10;
 
 
 

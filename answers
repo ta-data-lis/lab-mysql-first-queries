@@ -1,0 +1,69 @@
+# Lab | My first queries
+
+
+**1. Which are the different genres?**
+Games, Productivity, Weather, Reference, Music, Utilities, Finance, Travel, Sports, Business, Navigation, Education, Lifestyle, Food & Drink, News, Book, Medical, Shopping, Catalogs
+
+
+**2. Which is the genre with more apps rated?**
+Games
+
+**3. Which is the genre with more apps?**
+Games
+
+**4. Which is the one with less?**
+Catalogs
+
+**5. Take the 10 apps most rated.**
+- Temple run
+- Pandora - Music & Radio
+- Bible
+- Spotify Music
+- Angry Birds
+- Fruit Ninja Classic
+- CSR Racing
+- Crossy Road
+- Clean Vision
+- Minecraft
+
+**6. Take the 10 apps best rated by users.**
+- Marvel Tsum Tsum
+- Vainglory
+- Monday
+- Jam League
+- Wildfire Simulator
+- Weed Firm 2
+- Dulp
+- Toca Blocks
+- Jupiter Jump
+- Noodles
+
+**7. Take a look on the data you retrieved in the question 5. Give some insights.**
+
+Most of these apps were games and free of charge. There were some exceptions to this, eg. like the Bible and two music related apps (Spotify and Pandora)
+
+
+**8. Take a look on the data you retrieved in the question 6. Give some insights.**
+
+The better rated apps are mostly games or educational apps.
+
+**9. Now compare the data from questions 5 and 6. What do you see?**
+
+The number of reviews given doesn’t correlate with the rate given. As per the data above, the best rated apps don’t have a high number of reviews. 
+
+The data suggests that people tend to review an app when they have something negative to tell. 
+
+
+**10. How could you take the top 3 regarding the user ratings but also the number of votes?**
+The 3 apps in both the top 3 user ratings and number of votes are:
+- Temple Run
+- Bible
+- Spotify Music
+
+**11. Does people care about the price?** Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
+
+The data available does not provide the number of downloads per app, which makes it hard to analyse the connection between cost and number of downloads? (Do users download more apps when they're free?)
+However, we the number of reviews (rating_count_tot) can work as proxy for number of downloads. Hence, do free apps get more reviews? Or do paid apps get better reviews?
+
+The most expensive apps get a relatively low number of reviews, but high ratings. 
+People are more willing to pay for education apps.

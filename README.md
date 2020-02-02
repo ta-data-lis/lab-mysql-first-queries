@@ -30,37 +30,37 @@ Medical
 Catalogs
 
 **2. Which is the genre with more apps rated?**
-Games	3346
+— Games	3346
 
 **3. Which is the genre with more apps?**
-Games	3797
+— Games	3797
 
 **4. Which is the one with less?**
-Catalogs	10
+— Catalogs	10
 
 **5. Take the 10 apps most rated.**
-Facebook	2974676
-Instagram	2161558
-Clash of Clans	2130805
-Temple Run	1724546
-Pandora - Music & Radio	1126879
-Pinterest	1061624
-Bible	985920
-Candy Crush Saga	961794
-Spotify Music	878563
-Angry Birds	824451
+— Facebook	2974676
+— Instagram	2161558
+— Clash of Clans	2130805
+— Temple Run	1724546
+— Pandora - Music & Radio	1126879
+— Pinterest	1061624
+— Bible	985920
+— Candy Crush Saga	961794
+— Spotify Music	878563
+— Angry Birds	824451
 
 **6. Take the 10 apps best rated by users.**
-TurboScan™ Pro - document & receipt scanner: scan multiple pages and photos to PDF	5
-Flashlight Ⓞ	5
-Learn to Speak Spanish Fast With MosaLingua	5
-:) Sudoku +	5
-The Photographer's Ephemeris	5
-King of Dragon Pass	5
-Escape the Sweet Shop Series	5
-Infinity Blade	5
-Plants vs. Zombies HD	5
-Plants vs. Zombies	5
+— TurboScan™ Pro - document & receipt scanner: scan multiple pages and photos to PDF	5
+— Flashlight Ⓞ	5
+— Learn to Speak Spanish Fast With MosaLingua	5
+— :) Sudoku +	5
+— The Photographer's Ephemeris	5
+— King of Dragon Pass	5
+— Escape the Sweet Shop Series	5
+— Infinity Blade	5
+— Plants vs. Zombies HD	5
+— Plants vs. Zombies	5
 
 
 **7. Take a look on the data you retrieved in the question 5. Give some insights.**

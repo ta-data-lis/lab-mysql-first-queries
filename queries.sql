@@ -1,0 +1,14 @@
+create database lab1;
+use lab1;
+select * from applestore limit 10;
+select distinct prime_genre from applestore;
+select prime_genre, sum(rating_count_tot) from applestore group by 1 order by 2 desc;
+select prime_genre, count(*) from applestore group by 1 order by 2 desc;
+select id,track_name,prime_genre,rating_count_tot from applestore order by 4 desc limit 10;
+select id,track_name,prime_genre,user_rating, rating_count_tot from applestore order by 4 desc, 5 desc limit 10;
+select price,sum(rating_count_tot) from applestore group by 1 order by 1 desc;
+select price,sum(rating_count_tot) from applestore group by 1 order by 2 desc;
+select sum(rating_count_tot) from applestore where price>100;
+select sum(rating_count_tot) from applestore where price>=20 and price<=100;
+select sum(rating_count_tot) from applestore where price>0.98 and price<20;
+select sum(rating_count_tot) from applestore where price=0;

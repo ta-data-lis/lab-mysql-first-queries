@@ -95,11 +95,28 @@ Pic Collage - Picture Editor & Photo Collage Maker	123433	5
 — Then there is a clothing shop (Zappos), a credit score app (Credit Karma) and Domino's Pizza, which probably reflect habits of American users.
 
 **9. Now compare the data from questions 5 and 6. What do you see?**
+Games seem to dominate these rankings.
 
 **10. How could you take the top 3 regarding the user ratings but also the number of votes?**
 
 **11. Does people care about the price?** Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
 
+— 1st, and since there seems to be no total downloads, I used the average rating_count_tot to infer if price had an impact on the amount of downloads. 'though inconclusive (naturally), since the top 11 in this category are all free (not considering the possibility of being freemium), and the top 20 only have 3 payed entries (1,99 | 0,99 and 6,99), I'd say that probably does skew whether a user will download an app or not. With a little more certainty I can say that it influences the amount of people that rate an app, probably because more people download it (but can't be too confident about that with the current data).
+
+— 2nd the list of the average price for the rating is interesting; The least well rated are also the cheapest (0 starts at aprox. 0,99), which would either indicate a low quality of the app or that users become no less demanding of its quality regardless of what they pay for it. Also, there seems to be little variance among price and user rating; with 5 stars the average price is (aprox.) 1,64, while with 1 star it's at (aprox.) 1,93, with the higest average price (aprox 2,16) in the 4 stars and lowest average price (not counting 0 stars) at 2.5 (with, aprox., 1,10).
+
+- 3rd Many free apps (unkown if they're freemium), with more than 100K ratings, are still able to reach 5 and 4.5 stars, 
+
+5	1.6380612008425655
+4.5	1.7630250930241798
+4	2.1560099804826347
+3.5	1.7262228373680721
+3	1.266010481541551
+2.5	1.103794858394525
+2	1.155754710143467
+1.5	1.2089285680225916
+1	1.9251162562259407
+0	0.9874781544552099
 
 ## Deliverables 
 You need to submit a `.sql` file that includes the queries used to answer the questions above, as well as an `.md` file including your answers. 

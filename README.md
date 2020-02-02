@@ -105,18 +105,8 @@ Games seem to dominate these rankings.
 
 — 2nd the list of the average price for the rating is interesting; The least well rated are also the cheapest (0 starts at aprox. 0,99), which would either indicate a low quality of the app or that users become no less demanding of its quality regardless of what they pay for it. Also, there seems to be little variance among price and user rating; with 5 stars the average price is (aprox.) 1,64, while with 1 star it's at (aprox.) 1,93, with the higest average price (aprox 2,16) in the 4 stars and lowest average price (not counting 0 stars) at 2.5 (with, aprox., 1,10).
 
-- 3rd Many free apps (unkown if they're freemium), with more than 100K ratings, are still able to reach 5 and 4.5 stars, 
+- 3rd Many free apps (unkown if they're freemium), with more than 100K ratings, are still able to reach 5 and 4.5 stars, while, strangely, none appears to be below 2 stars, which begs the question: does "free" bring with it some tolerance? 
 
-5	1.6380612008425655
-4.5	1.7630250930241798
-4	2.1560099804826347
-3.5	1.7262228373680721
-3	1.266010481541551
-2.5	1.103794858394525
-2	1.155754710143467
-1.5	1.2089285680225916
-1	1.9251162562259407
-0	0.9874781544552099
 
 ## Deliverables 
 You need to submit a `.sql` file that includes the queries used to answer the questions above, as well as an `.md` file including your answers. 

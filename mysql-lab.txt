@@ -1,0 +1,80 @@
+1. Which are the different genres?
+Games
+Productivity
+Weather
+Shopping
+Reference
+Finance
+Music
+Utilities
+Travel
+Social Networking
+Sports
+Business
+Health & Fitness
+Entertainment
+Photo & Video
+Navigation
+Education
+Lifestyle
+Food & Drink
+News
+Book
+Medical
+Catalogs
+
+2. Which is the genre with more apps rated?
+Games	52630139
+
+3. Which is the genre with more apps?
+Games	3808
+
+4. Which is the one with less?
+Catalogs	10
+
+5. Take the 10 apps most rated.
+Facebook	2974676
+Instagram	2161558
+Clash of Clans	2130805
+Temple Run	1724546
+Pandora - Music & Radio	1126879
+Pinterest	1061624
+Bible	985920
+Candy Crush Saga 961794
+Spotify Music	878563
+Angry Birds	824451
+
+6. Take the 10 apps best rated by users.
+Head Soccer
+Plants vs. Zombies
+Sniper 3D Assassin: Shoot to Kill Gun Game
+Geometry Dash Lite
+Infinity Blade
+Geometry Dash
+Domino's Pizza USA
+CSR Racing 2
+Pictoword: Fun 2 Pics Guess What's the Word Trivia
+Plants vs. Zombies HD
+
+
+7. Take a look on the data you retrieved in the question 5. Give some insights.
+The top 2 most rated apps are not part of the most rated genre (games), we have 4 games among the top 10 most rated apps. 
+
+8. Take a look on the data you retrieved in the question 6. Give some insights.
+9 out of the 10 best rated apps by users are games. 
+
+9. Now compare the data from questions 5 and 6. What do you see?
+data from questions 5 and 6 do not overlap in any app. This means that the ones that are most rated do not have the best user rating. And the ones that are best rated by users are not the most popular.
+
+10. How could you take the top 3 regarding the user ratings but also the number of votes?
+Head Soccer
+Plants vs. Zombies
+Sniper 3D Assassin: Shoot to Kill Gun Game
+
+I used the rating count total to find the most rated app combine with the highest user rating = 5.
+
+11. Does people care about the price? Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
+My query was the top 50 apps sorted by rating count total, checking out the price of each app
+People care about price. The top 10 most rated apps are free and also out of the top 50 most rated apps just 6 are paid.
+
+

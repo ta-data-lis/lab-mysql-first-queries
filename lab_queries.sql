@@ -62,12 +62,16 @@ LIMIT 3;
 SELECT id, track_name, rating_count_tot, price
 FROM applestore
 ORDER BY rating_count_tot DESC
-LIMIT 100;
+LIMIT 10;
 
 SELECT id, track_name, rating_count_tot, price
-FROM applestore
-WHERE price > 0 and rating_count_tot > 187000
-ORDER BY rating_count_tot DESC;
+FROM (
+	SELECT id, track_name, rating_count_tot, price
+	FROM applestore
+	ORDER BY rating_count_tot DESC
+	LIMIT 100
+	) AS top100
+WHERE price <> 0;
 
 /* The top 10 apps with the most ratings are free and out of the top 100 only 11 are paid, 
-which points to price being an important factor */
+which points to price being an important factor in people's choice of apps */

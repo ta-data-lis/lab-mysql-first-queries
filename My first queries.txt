@@ -1,0 +1,95 @@
+Lab | My first queries
+
+
+1. Which are the different genres?
+
+Games
+Productivity
+Weather
+Shopping
+Reference
+Finance
+Music
+Utilities
+Travel
+Social Networking
+Sports
+Business
+Health & Fitness
+Entertainment
+Photo & Video
+Navigation
+Education
+Lifestyle
+Food & Drink
+News
+Book
+Medical
+Catalogs
+
+2. Which is the genre with more apps rated?
+
+Games	52630139
+
+3. Which is the genre with more apps?
+
+Games	3808
+
+4. Which is the one with less?
+
+Catalogs	10
+
+5. Take the 10 apps most rated.
+
+Facebook	2974676
+Instagram	2161558
+Clash of Clans	2130805
+Temple Run	1724546
+Pandora - Music & Radio	1126879
+Pinterest	1061624
+Bible	985920
+Candy Crush Saga 961794
+Spotify Music	878563
+Angry Birds	824451
+
+6. Take the 10 apps best rated by users.
+
+Head Soccer
+Plants vs. Zombies
+Sniper 3D Assassin: Shoot to Kill Gun Game
+Geometry Dash Lite
+Infinity Blade
+Geometry Dash
+Domino's Pizza USA
+CSR Racing 2
+Pictoword: Fun 2 Pics Guess What's the Word Trivia
+Plants vs. Zombies HD
+
+
+7. Take a look on the data you retrieved in the question 5. Give some insights.
+
+Facebook and Instagram, a social network and an app for photos & video, are the apps with the most votes. In the top 10 we also have 4 games apps (best rated prime_genre), and 2 Music apps
+
+
+8. Take a look on the data you retrieved in the question 6. Give some insights.
+
+Games make up for almost the totality of this shortlist, both paid games and freee games
+
+
+9. Now compare the data from questions 5 and 6. What do you see?
+
+We can infer that having the most votes doesn't necessarily make an app the one with the best ratings
+
+
+10. How could you take the top 3 regarding the user ratings but also the number of votes?
+
+Head Soccer
+Plants vs. Zombies
+Sniper 3D Assassin: Shoot to Kill Gun Game
+
+These are the 3 apps with the most votes & a user_rating of 5
+
+
+11. Does people care about the price? Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
+
+The majority of the most rated apps are free, but on the top20 we have 1/4 of paid apps. So yes, people care about the price but in certain cases, if your app adds enough value, people will be open to buy it

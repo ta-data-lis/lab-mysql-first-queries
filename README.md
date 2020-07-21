@@ -2,15 +2,15 @@
 
 # Lab | My first queries
 
-Please, import the .csv database called *AppleStore.csv*. Use the *data* table to query the data about Apple Store Apps and answer the following questions: 
+Please, import the .csv database called *AppleStore.csv*. Use the *data* table to query the data about Apple Store Apps and answer the following questions:
 
 **1. Which are the different genres?**
 
-**2. Which is the genre with more apps rated?**
+**2. Which is the genre with most apps rated?**
 
-**3. Which is the genre with more apps?**
+**3. Which is the genre with most apps?**
 
-**4. Which is the one with less?**
+**4. Which is the one with least?**
 
 **5. Take the 10 apps most rated.**
 
@@ -24,8 +24,8 @@ Please, import the .csv database called *AppleStore.csv*. Use the *data* table t
 
 **10. How could you take the top 3 regarding the user ratings but also the number of votes?**
 
-**11. Does people care about the price?** Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
+**11. Do people care about the price?** Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
 
 
-## Deliverables 
-You need to submit a `.sql` file that includes the queries used to answer the questions above, as well as an `.md` file including your answers. 
+## Deliverables
+You need to submit a `.sql` file that includes the queries used to answer the questions above, as well as an `.md` file including your answers.

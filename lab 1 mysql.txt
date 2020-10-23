@@ -1,0 +1,89 @@
+1. select prime_genre
+from applestore
+group by prime_genre;
+
+The genres are: games, productivity, weather, shopping, reference, finance, musice, utilities, travel, social networking, sports, business, health & fitness, entertainment, photo & video, navigation, education, lifestyle, food & drink, news, book, medical, catalogs.
+
+2. select prime_genre, sum(rating_count_tot) as tot
+from applestore
+group by prime_genre;
+
+The genre with more apps are games (52630139).
+
+3. select count(track_name) as app, prime_genre
+from applestore
+group by prime_genre
+order by app desc; 
+
+The genre with more app is games. 
+
+4. select count(track_name) as app, prime_genre
+from applestore
+group by prime_genre
+order by app asc; 
+
+The genre with less app is catalogs.
+
+5. select track_name as app, 
+rating_count_tot as rates
+from applestore 
+group by app
+order by rates desc
+limit 10;
+
+The ten apps most rated are the following:
+'Facebook', '2974676'
+'Instagram', '2161558'
+'Clash of Clans', '2130805'
+'Temple Run', '1724546'
+'Pandora - Music & Radio', '1126879'
+'Pinterest', '1061624'
+'Bible', '985920'
+'Candy Crush Saga', '961794'
+'Spotify Music', '878563'
+'Angry Birds', '824451'
+
+
+6. select track_name as app, 
+user_rating as rates
+from applestore 
+group by app
+order by rates desc
+limit 10;
+
+The ten apps best rated are the following: 
+'Green Eggs and Ham - Read & Learn - Dr. Seuss', '5'
+'激ムズ！ねこ階段', '5'
+'【明星恋爱】偶像之路TIME TO STAR', '5'
+'Video Smith - A Powerful video editing tool set', '5'
+'KSI Unleashed', '5'
+'SelfieCity', '5'
+'ipsy - Makeup, subscription and beauty tips', '5'
+'Color•多彩手帐', '5'
+'Dictionnaire Le Robert Mobile : 4 en 1', '5'
+'激ムズ！ねこじゃんぷ２', '5'
+
+7, 8, 9.
+In 5 we have the ten apps more rated, which are more commonly known and maybe because of that they have more users too.
+Although in 6 we have the ten apps best rated, they are not the apps that have more users and maybe the users consider them more useful for learning something they need or want to have in terms of knowledge than the apps in 5. The apps in 5 seems to be more related with freetime. 
+
+10. 
+select track_name, rating_count_tot, user_rating
+from applestore 
+order by rating_count_tot desc, user_rating desc
+limit 3;
+
+The top 3 regarding the user ratings and the number of votes are: Facebook, Instagram and Clash of Clans.
+
+11.
+People seems to not care a lot about price because when we try the following query, the apps more rated are not the most cheaper. 
+select track_name, price, rating_count_tot
+from applestore 
+order by price desc
+limit 10;
+
+The apps best rated are not the most expensive neither the most cheaper, as demonstrated by the result of this query:
+select track_name, price, user_rating
+from applestore
+order by price desc
+limit 10;

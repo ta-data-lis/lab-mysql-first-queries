@@ -74,7 +74,7 @@ LIMIT 10;
 --Does people care about the price?
 
 
---> In the following query we can check the higher prices. We can see that they have a very low number of rates.On the other hand,
+--> In the following query we can check which apps have higher prices. We can see that the ones with higher prices have very low number of rates.On the other hand,
 -- rate is quite high, but as we had analyzed before, the fact that an app has less number of rates gives less credibility to the
 -- app quality.
 
@@ -83,14 +83,14 @@ GROUP BY 1,2
 ORDER BY PRICE DESC 
 LIMIT 10;
 
--- Now, I am going to order the query by the number of rates. We can see that the ones that have more number of rates are for free. 
+-- Now, I am going to order query by higher number of rates. We can see that the ones that have more number of rates are for free. 
 
 SELECT track_name AS APPS, user_rating AS RATE, SUM(rating_count_tot) AS COUNT_RATES, AVG(price) as PRICE FROM  AppleStore 
 GROUP BY 1,2
 ORDER BY COUNT_RATES DESC
 LIMIT 10;
 
--- Now, we will order by higher rates. Surprisingly, the ones with higher rates aren't for free. As we said, no credibiity
+-- Now, we will order query by higher rates. Surprisingly, the ones with higher rates aren't for free. As we said, no credibiity
 --for the lower number of rates given.
 
 SELECT track_name AS APPS,user_rating AS RATE, SUM(rating_count_tot) AS COUNT_RATES, AVG(price) as PRICE FROM  AppleStore 
@@ -98,7 +98,7 @@ GROUP BY 1,2
 ORDER BY RATE DESC 
 LIMIT 10;
 
--->Last, we will order by higher rates with the higher number of rates. In this case most of the app are fore free or cost
+-->Last, we will order by higher rates with the higher number of rates. In this case most of the apps are fore free or cost
 --very little. 
 
 SELECT track_name AS App, sum(rating_count_tot) AS number_rates, AVG(user_rating) AS  RATES, AVG(price) as PRICE

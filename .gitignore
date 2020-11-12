@@ -139,3 +139,9 @@ fabric.properties
 .history
 
 # End of https://www.gitignore.io/api/macos,pycharm,jupyternotebook,visualstudiocode,jupyternotebooks
+first-queries.sql
+.dbeaver/.project-metadata.json.bak
+.dbeaver/credentials-config.json
+.dbeaver/data-sources.json
+.dbeaver/project-metadata.json
+.project

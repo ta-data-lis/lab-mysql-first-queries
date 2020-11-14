@@ -65,11 +65,9 @@ LIMIT 10;
 SELECT 
 track_name,
 user_rating, 
-rating_count_tot
+rating_count_tot 
 FROM AppleStore 
-ORDER BY 2,3 ASC;
+ORDER BY rating_count_tot --- it orders based on data type for some reason. 
+desc;
 
 
-SELECT track_name, user_rating FROM applestore
-ORDER BY user_rating DESC
-LIMIT 10;

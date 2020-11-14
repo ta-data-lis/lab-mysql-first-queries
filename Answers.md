@@ -142,5 +142,6 @@ from applestore
 group by price
 order by price asc, average_userrating desc;
 
-The queries show that user_rating and price are not related as many of the top rated apps are free and paid apps have a mixture of price Vs userratting value 
+The queries show that user_rating and price are not related as many of the top rated apps are free, and the paid apps have a wide range of price Vs userratting value - we can see
+lack of correlation from the final query showing the price Vs average rating.  
 

@@ -1,0 +1,129 @@
+**1. Which are the different genres?**
+# prime_genre
+'Games'
+'Productivity'
+'Weather'
+'Shopping'
+'Reference'
+'Finance'
+'Music'
+'Utilities'
+'Travel'
+'Social Networking'
+'Sports'
+'Business'
+'Health & Fitness'
+'Entertainment'
+'Photo & Video'
+'Navigation'
+'Education'
+'Lifestyle'
+'Food & Drink'
+'News'
+'Book'
+'Medical'
+'Catalogs'
+
+**2. Which is the genre with more apps rated?**
+Social Networking	2974676
+
+
+
+**3. Which is the genre with more apps?**
+Games	3808
+
+
+
+**4. Which is the one with less?**
+Catalogs	10
+
+
+
+**5. Take the 10 apps most rated.**
+
+Facebook	2974676
+Instagram	2161558
+Clash of Clans	2130805
+Temple Run	1724546
+Pandora - Music & Radio	1126879
+Pinterest	1061624
+Bible	985920
+Candy Crush Saga	961794
+Spotify Music	878563
+Angry Birds	824451
+
+**6. Take the 10 apps best rated by users.**
+
+LINE Moments - Capture Your Fun Moments	5
+Cafe Story - Play Cooking & Farming Game	5
+Grumpy Cat's Worst Game Ever	5
+Fitness Sync for Fitbit to Apple Health	5
+Stickman Base Jumper 2	5
+Dungeons of Chaos UNITY EDITION	5
+DELISH KITCHEN - レシピ動画で料理を簡単に	5
+诸神战纪IV:战神崛起	5
+LINE RUSH !	5
+Able Black	5
+
+
+**7. Take a look on the data you retrieved in the question 5. Give some insights.**
+The list of top 10 most rated apps appears to be influenced by the popularity of the app. They apps in the top 10 are widely used apps, so that can influence the amout of ratings they get. There's a link between more users - more ratings.
+
+**8. Take a look on the data you retrieved in the question 6. Give some insights.**
+The list of the top 10 best rated apps doesn't have commonly known names as in the top 10 most rated apps. Also, all the apps in the top 10 best rated have a perfect score of 5.
+
+**9. Now compare the data from questions 5 and 6. What do you see?**
+None of the top 10 most rated apps are in the top 10 best rated apps. I suspect that the apps in the top 10 best rated apps aren't very used, and  the rating score of the top 10 best rated apps is probably based on a low nomber of ratings.
+
+
+**10. How could you take the top 3 regarding the user ratings but also the number of votes?**
+Head Soccer	481564	5
+Plants vs. Zombies	426463	5
+Sniper 3D Assassin: Shoot to Kill Gun Game	386521	5
+
+**11. Do people care about the price?** Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
+
+SELECT price, AVG(rating_count_tot), AVG(user_rating)
+FROM sakila.applestore
+GROUP BY price
+ORDER BY rating_count_tot DESC, user_rating DESC
+
+
+0	19751.4352	3.377130155593974
+0.99	7113.3182	3.463498622589532
+6.99	5504.4321	4.006172839506172
+7.99	4771.0345	3.689655172413793
+9.99	3982.3134	3.716417910447761
+1.99	3787.1292	3.734248788368336
+4.99	3284.8438	3.8255208333333335
+2.99	2811.8796	3.891336270190896
+3.99	1662.8261	3.7934782608695654
+8.99	1546.7778	4.166666666666667
+14.99	1328.1500	3.15
+13.99	1209.1667	4.25
+19.99	1045.7500	4.333333333333333
+5.99	942.3529	3.4215686274509802
+74.99	927.0000	3.5
+15.99	882.0000	4.125
+249.99	773.0000	4
+39.99	749.0000	4.25
+24.99	526.8750	3.3125
+16.99	491.0000	4
+29.99	479.8333	4.583333333333333
+12.99	463.3333	1.5
+49.99	252.0000	4.25
+11.99	214.6000	2.6
+59.99	141.0000	4.333333333333333
+22.99	79.5000	1.75
+18.99	79.0000	5
+99.99	71.0000	4.5
+21.99	64.0000	4.5
+34.99	49.0000	4.5
+299.99	41.0000	4
+17.99	38.5000	3.75
+23.99	2.5000	2.5
+27.99	1.0000	4
+47.99	0.0000	0
+20.99	0.0000	0
+
+

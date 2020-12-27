@@ -36,7 +36,7 @@
 	Catalogs
 
 **5. Take the 10 apps most rated.**
-	Facebook
+Facebook
 Instagram
 Clash of Clans
 Temple Run
@@ -50,7 +50,7 @@ Angry Birds
 
 **6. Take the 10 apps best rated by users.**
 
-	Sago Mini Planes
+Sago Mini Planes
 The Complete Fairytale Play Theater
 Artie's Magic Pencil
 Gemini - A Journey of Two Stars

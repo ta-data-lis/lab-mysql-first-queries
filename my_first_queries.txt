@@ -1,0 +1,84 @@
+**1. Which are the different genres?**
+Games
+Productivity
+Weather
+Shopping
+Reference
+Finance
+Music
+Utilities
+Travel
+"Social Networking"
+Sports
+Business
+"Health & Fitness"
+Entertainment
+"Photo & Video"
+Navigation
+Education
+Lifestyle
+"Food & Drink"
+News
+Book
+Medical
+Catalogs
+
+**2. Which is the genre with more apps rated?**
+ Games (3400)
+
+**3. Which is the genre with more apps?**
+ Games (3862)
+
+**4. Which is the one with less?**
+ Catalogs (5)
+
+**5. Take the 10 apps most rated.**
+'Facebook','2974676'
+'Instagram','2161558'
+'Clash of Clans','2130805'
+'Temple Run','1724546'
+'Pandora - Music & Radio','1126879'
+'Pinterest','1061624'
+'Bible','985920'
+'Candy Crush Saga','961794'
+'Spotify Music','878563'
+'Angry Birds','824451'
+
+
+**6. Take the 10 apps best rated by users.**
+'Escape the Sweet Shop Series','5'
+'Laurie Hernandez the Human Emoji','5'
+'Room Escape Game - Santa\'s Room','5'
+'CTFxCmoji','5'
+'4x4 Dirt Track Trials Forest Driving Parking Sim','5'
+'VPN Go - Safe Fast & Stable VPN Proxy','5'
+'Stickman Base Jumper 2','5'
+'DELISH KITCHEN - レシピ動画で料理を簡単に','5'
+'脱出ゲーム KOTATSU','5'
+'Escape a Crepe House','5'
+
+**7. Take a look on the data you retrieved in the question 5. Give some insights.**
+The apps that are most rated are also very famous ones:
+3 - Social networking that most people have and use
+4 - Games that can be played without Internet connection (in some you can compete with friends using the social apps)
+2 - Music apps
+And the bible.
+
+**8. Take a look on the data you retrieved in the question 6. Give some insights.**
+The apps that are best rated seem to be ones that have little comments and don't have many users.
+
+**9. Now compare the data from questions 5 and 6. What do you see?**
+Although people comment and rate social network apps a lot, they don't give them such a good evaluation. The apps that have very few comments are the ones that end having the best ratings.
+
+**10. How could you take the top 3 regarding the user ratings but also the number of votes?**
+Order by the most rated apps and the best rates.
+'Head Soccer','5','481564'
+'Plants vs. Zombies','5','426463'
+'Sniper 3D Assassin: Shoot to Kill Gun Game','5','386521'
+
+**11. Do people care about the price?**
+Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
+The more expensive the apps become the less ratings they have, so it is safe ti assume there are less people using them. The average of the ratings increases with the the price. The exception is in the most expensive 3 that the ratings actually decrease. 
+So the price influenciates greatly how many users are going to purchase it. The price itself and how many users have the applications and comment them also weighs in the rating of apps.
+
+

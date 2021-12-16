@@ -1,0 +1,98 @@
+1. Which are the different genres?
+Book
+Business
+Catalogs
+Education
+Entertainment
+Finance
+Food & Drink
+Games
+Health & Fitness
+Lifestyle
+Medical
+Music
+Navigation
+News
+Photo & Video
+Productivity
+Reference
+Shopping
+Social Networking
+Sports
+Travel
+Utilities
+Weather
+
+2. Which is the genre with more apps rated?
+Games
+
+3. Which is the genre with more apps?
+Games
+
+4. Which is the one with less?
+Catalogs
+
+5. Take the 10 apps most rated.
+Facebook	2974676
+Instagram	2161558
+Clash of Clans	2130805
+Temple Run	1724546
+Pandora - Music & Radio	1126879
+Pinterest	1061624
+Bible	985920
+Candy Crush Saga	961794
+Spotify Music	878563
+Angry Birds	824451
+
+6. Take the 10 apps best rated by users.
+Smart Matches ~ Puzzles with Matchsticks	5
+KQ MiniSynth	5
+Mystic Castle - the Simplest & Best RPG and Adventure Game	5
+Jeremstar box	5
+棒棒糖-宝宝的世界衣橱	5
+Hide it Hillary!	5
+Clashy Colors	5
+Vlogger Go Viral - Clicker Game & Vlog Simulator	5
+Dierks Bentley Lyric Keyboard + Emojis	5
+Benzomoji	5
+
+7. Take a look on the data you retrieved in the question 5. Give some insights.
+The apps most rated are the apps the most people uses since it is social apps (an everyone is using social media).
+And the big part of the 10 most rated are games which also part of the daily rotine of the people.
+
+8. Take a look on the data you retrieved in the question 6. Give some insights.
+The majority of apps best rated by users, the majority are games, as a lot of people have at least one game on
+the phone just to spend a little bit of time it is always appearing a pop-up "Are you enjoying this game?" and
+people raking just not to have that annoying pop-up appearing. As compare to social media, there is not that habit to ask for evaluation.
+
+9. Now compare the data from questions 5 and 6. What do you see?
+In both questios, there is games in the top however as expalin in the previous question the social media apps do not have the habit 
+to ask for evaluation like game apps have that habit. That's why people only rank social apps in case of issues.
+
+10. How could you take the top 3 regarding the user ratings but also the number of votes?
+Head Soccer
+Plants vs. Zombies
+Sniper 3D Assassin: Shoot to Kill Gun Game
+
+The 3 apps with 5 as the raking and the most number of votes
+
+11. Does people care about the price? - Do some queries, comment why are you doing them and the results you retrieve.
+What is your conclusion?
+track_name, price, user_rating, rating_count_tot
+'LAMP Words For Life', '299.99', '4', '41'
+'Proloquo2Go - Symbol-based AAC', '249.99', '4', '773'
+'KNFB Reader', '99.99', '4.5', '71'
+'NAVIGON Europe', '74.99', '3.5', '927'
+'FineScanner Pro - PDF Document Scanner App + OCR', '59.99', '4', '100'
+'Articulation Station Pro', '59.99', '4.5', '294'
+'Articulation Test Center Pro', '59.99', '4.5', '29'
+'Cubasis 2 - Mobile Music Creation System', '49.99', '4', '297'
+'VPN Pro | Lifetime Proxy & Best VPN by Betternet', '49.99', '4.5', '207'
+'プチ・ロワイヤル仏和辞典（第4版）・和仏辞典（第3版）', '47.99', '0', '0'
+'KORG Gadget', '39.99', '4.5', '1297'
+'KORG Module', '39.99', '4', '201'
+'Anatomy & Physiology: Body Structures and Function', '34.99', '4.5', '49'
+'Extreme Landings Pro', '29.99', '4.5', '647'
+'KORG iM1', '29.99', '4.5', '338'
+
+In reality the most expensive apps have low number of people raking them. But the rakings are good (the majority are 4 and 4.5).

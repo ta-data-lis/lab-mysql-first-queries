@@ -27,8 +27,24 @@ LIMIT 1;
 -- Question 5
 SELECT track_name, cont_rating
 FROM labsw2.applestore_windows
+WHERE track_name NOT LIKE '%?%'
 ORDER BY cont_rating DESC
-LIMIT 10;track_name
+LIMIT 10;
+
+-- Question 6
+SELECT track_name, user_rating
+FROM labsw2.applestore_windows
+WHERE track_name NOT LIKE '%?%'
+ORDER BY user_rating DESC
+LIMIT 10;
+
+-- Question 10
+SELECT track_name, user_rating, cont_rating
+FROM labsw2.applestore_windows
+WHERE track_name NOT LIKE '%?%'
+ORDER BY user_rating DESC, cont_rating DESC
+LIMIT 3;
+
 
 
 

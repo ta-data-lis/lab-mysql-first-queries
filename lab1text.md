@@ -14,3 +14,8 @@ A:LINE Moments - Capture Your Fun Moments, Cafe Story - Play Cooking & Farming G
 9. Now compare the data from questions 5 and 6. What do you see?
 
 The data collected in questions 5 and 6 suggests that the most rated apps are not always the best rated apps (in this case, all of them apparently). 
+
+
+11. Do people care about the price?
+
+The data presented on the tables summoned in exercise 11 suggest that the price can, in fact, be a crucial factor for the apps! We can see that the average price of the most and best rated apps is very accessible (not more than 1€)

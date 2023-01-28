@@ -6,6 +6,30 @@ Please, import the .csv database called *AppleStore.csv* corresponding to your o
 
 **1. Which are the different genres?**
 
+Games
+Productivity
+Weather
+Shopping
+Reference
+Finance
+Music
+Utilities
+Travel
+Social Networking
+Sports
+Business
+Health & Fitness
+Entertainment
+Photo & Video
+Navigation
+Education
+Lifestyle
+Food & Drink
+News
+Book
+Medical
+Catalogs
+
 **2. Which is the genre with more apps rated?**
 
 **3. Which is the genre with more apps?**

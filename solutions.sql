@@ -1,90 +1,74 @@
-/* CHALLENGE 1 */
+          /* only the applestore_windows file worked despite me using a mac */
+          
+/* 1. Which are the different genres? */
+     
+SELECT DISTINCT prime_genre
+FROM Applestore_mac.applestore_windows;
 
-/* Checking the tables */
-
-SELECT *
-FROM solutions.authors;
-
-SELECT *
-FROM solutions.publishers;
-
-SELECT *
-FROM solutions.titleauthor;
+/* 2. Which is the genre with more apps rated? */
 
 SELECT *
-FROM solutions.titles;
+FROM Applestore_mac.applestore_windows;
 
-/* Challenge 1 Query */
+SELECT prime_genre, COUNT(*)
+FROM Applestore_mac.applestore_windows
+WHERE Applestore_mac.applestore_windows.rating_count_tot > 0
+GROUP BY prime_genre
+ORDER BY COUNT(*) DESC
+LIMIT 1;
 
-SELECT titleauthor.au_id AS "AUTHOR ID", au_lname AS "LAST NAME", au_fname AS "FIRST NAME", title AS "TITLE", pub_name AS "PUBLISHER"
-FROM solutions.titleauthor
-INNER JOIN solutions.authors
-ON solutions.titleauthor.au_id = solutions.authors.au_id
-INNER JOIN solutions.titles
-ON solutions.titleauthor.title_id = solutions.titles.title_id
-INNER JOIN solutions.publishers
-ON solutions.titles.pub_id = solutions.publishers.pub_id
-ORDER BY solutions.titleauthor.au_id;
-    
-    
-/* Check total */
+/* 3. Which is the genre with more apps? */
 
-SELECT *
-FROM solutions.titleauthor;
+SELECT prime_genre, COUNT(*)
+FROM Applestore_mac.applestore_windows
+GROUP BY prime_genre
+ORDER BY COUNT(*) DESC
+LIMIT 1;
 
+/* 4. Which is the one with less? */
 
+SELECT prime_genre, COUNT(*)
+FROM Applestore_mac.applestore_windows
+GROUP BY prime_genre
+ORDER BY COUNT(*) ASC
+LIMIT 1;
 
-/* CHALLENGE 2 */
-
-/* Challenge 2 Query */
-
-SELECT titleauthor.au_id AS "AUTHOR ID", au_lname AS "LAST NAME", au_fname AS "FIRST NAME", pub_name AS "PUBLISHER", COUNT(titles.title_id) AS "TITLE COUNT"
-FROM solutions.titleauthor
-INNER JOIN solutions.authors
-ON solutions.titleauthor.au_id = solutions.authors.au_id
-INNER JOIN solutions.titles
-ON solutions.titleauthor.title_id = solutions.titles.title_id
-INNER JOIN solutions.publishers
-ON solutions.titles.pub_id = solutions.publishers.pub_id
-GROUP BY solutions.titleauthor.au_id, pub_name
-ORDER BY solutions.titleauthor.au_id DESC;
-
-
-
-/* CHALLENGE 3 */
+/* 5. Take the 10 apps most rated. */
 
 SELECT *
-FROM solutions.authors;
+FROM Applestore_mac.applestore_windows
+ORDER BY Applestore_mac.applestore_windows.rating_count_tot DESC
+LIMIT 10;
+
+/* 6. Take the 10 apps best rated by users. */
 
 SELECT *
-FROM solutions.titleauthor;
+FROM Applestore_mac.applestore_windows
+ORDER BY Applestore_mac.applestore_windows.user_rating DESC
+LIMIT 10;
+
+/* 10. How could you take the top 3 regarding the user ratings but also the number of votes? */
 
 SELECT *
-FROM solutions.sales;
-
-/* Challenge 3 Query */
-
-SELECT solutions.authors.au_id AS "AUTHOR ID", au_lname "LAST NAME", au_fname "FIRST NAME", SUM(sales.qty) AS "TOTAL"
-FROM solutions.authors
-LEFT JOIN solutions.titleauthor
-ON solutions.titleauthor.au_id = solutions.authors.au_id
-LEFT JOIN solutions.sales
-ON solutions.titleauthor.title_id  = solutions.sales.title_id
-GROUP BY solutions.authors.au_id
-ORDER BY TOTAL DESC
+FROM Applestore_mac.applestore_windows
+ORDER BY user_rating DESC, rating_count_tot DESC
 LIMIT 3;
-    
-    
-    
-/* CHALLENGE 4 */
 
-/* Challenge 4 Query */
+/* 11. Does people care about the price? Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion? */
 
-SELECT solutions.authors.au_id AS "AUTHOR ID", au_lname "LAST NAME", au_fname "FIRST NAME", IFNULL(SUM(sales.qty),0) AS "TOTAL"
-FROM solutions.authors
-LEFT JOIN solutions.titleauthor
-ON solutions.titleauthor.au_id = solutions.authors.au_id
-LEFT JOIN solutions.sales
-ON solutions.titleauthor.title_id  = solutions.sales.title_id
-GROUP BY solutions.authors.au_id
-ORDER BY Total DESC;
+
+/* Average rating of reviewed apps, free and paid */
+SELECT AVG(user_rating)
+FROM Applestore_mac.applestore_windows
+WHERE rating_count_tot > 0 AND price = 0;
+
+SELECT AVG(user_rating)
+FROM Applestore_mac.applestore_windows
+WHERE rating_count_tot > 0 AND price > 0;
+
+/* Which rating value holds the most reviews */
+SELECT user_rating, SUM(rating_count_tot)
+FROM Applestore_mac.applestore_windows
+WHERE user_rating BETWEEN 1 AND 5
+GROUP BY user_rating
+ORDER BY SUM(rating_count_tot) DESC;

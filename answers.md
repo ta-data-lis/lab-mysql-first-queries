@@ -115,18 +115,18 @@ That would eventually return a top 3, from question 6. top 10:
 
 **11. Does people care about the price?**
 
-/*Defining "care" as the rating and the total reviews people make*/
+Defining "care" as a metric that takes into account rating score and the total reviews people will leave.
 
-/*First check: do people review apps when they like/dislike them equally?*/
-/*The majority of reviews (88%) is for apps that are rated between 3.5 and 4.5/
+Do people review apps when they like/dislike them equally?
+- The great majority of reviews (88%) is for apps that are rated between 3.5 and 4.5
+  - The minimum of the rating scale is 1
+  - What is "like" and what is "dislike" in terms of rating score?
 
-/*Focussing on highly-rated reviews (4.5, 63% of total) and try to find if price plays a role*/
-/*45% (1183 out of 2644) of them are paid*/
-/*Focussing on badly-rated reviews (3.5, 12% of total) and try to find if price plays a role*/
-/*46% (323 out of 697) of them are paid*/
+Defining "like" (highly-rated reviews, 4.5 = 63% of total reviews) and "dislike" (badly-rated reviews, 3.5 = 12% of total reviews) in the aforementioned range, and try to find if price plays a role
+- 45% (1183 out of 2644) of the apps people "like" are paid
+- 46% (323 out of 697) of the apps people "dislike" are paid
 
-/*What is the average rating of (reviewed) paid and free apps?*/
-/*The average rating of (reviewed) paid apps is 4.05, identical to the one of free apps*/
+What is the average rating of (reviewed) paid and free apps?
+The average rating of (reviewed) paid apps is 4.05, identical to the one of free apps.
 
-/*Price could matter (a bit) if we define only rating as "care"*/
-/*On a more broad definition of "care", that considers rating and number of reviews, no clear conclusion on the influence of price can be made*/ 
+Concluding: Price could matter (a bit) if we define only rating as "care". On a more broad definition of "care", that considers rating score and the total reviews people will leave, no clear conclusion on the influence of price can be made.

@@ -183,6 +183,3 @@ SELECT AVG(user_rating)
 FROM ironhack.applestore_windows
 WHERE rating_count_tot > 0 AND price = 0;
 /*The average rating of reviewed paid apps is 4.05, identical to the one of reviewed free apps*/
-
-/*Price could matter (a bit) if we define only rating as "care"*/
-/*On a more broad definition of "care", that considers rating and number of reviews, no clear conclusion on the influence of price can be made*/

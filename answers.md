@@ -75,7 +75,7 @@ Trends in the 10 most rated apps:
 
 - _Gaming is BIG and there is some serious competition in it_: The genre of Games (most apps rated, most apps) finds 4 entries in the top 10 (5.6 M ratings or ~38% of total ratings).
 
-  - _Competition in gaming has two tiers_: The first two Games entries (Clash of Clans, Temple Run) contribute about double the amount of ratings (1.7-2.1 M ratings) as compared to the last two (Candy Crash Saga and Angry Birds; 0.8-1 M ratings).
+  - The first two Games entries (Clash of Clans, Temple Run) contribute about double the amount of ratings (1.7-2.1 M ratings) as compared to the last two (Candy Crash Saga and Angry Birds; 0.8-1 M ratings).
 
 - _Social dominated by Facebook_: The genre of Social Networking uptakes ~27% of the total ratings, however the first entry (Facebook, ~3 M ratings, the highest in the top 10) clearly wins over the second (Pinterest, 1.1 M ratings).
 

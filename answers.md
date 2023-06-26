@@ -71,15 +71,17 @@ There are >10 (490) best rated apps (user_rating = 5); I filtered them further b
 
 **7. Take a look on the data you retrieved in the question 5. Give some insights.**
 
-In the 10 most rated apps
-- The genre of Games (most apps rated, most apps) populates 4 apps in the 10 most rated apps ranking (5.6 M ratings or ~38% of total ratings): _gaming is BIG and there is some serious competition in it_.
+Trends in the 10 most rated apps:
 
-  - The first two Games entries (Clash of Clans, Temple Run) contribute about double the amount of ratings (1.7-2.1 M ratings) as compared to the last two (Candy Crash Saga and Angry Birds; 0.8-1 M ratings): _gaming competition can be differentiated to two tiers._
+- _Gaming is BIG and there is some serious competition in it_: The genre of Games (most apps rated, most apps) finds 4 entries in the top 10 (5.6 M ratings or ~38% of total ratings).
 
-- The genre of Social Networking uptakes ~27% of the total ratings, however here the first entry (Facebook) has clearly the role of frontrunner (~3 M ratings, the highest in the top 10): _Facebook dominates social_
+  - _Competition in gaming has two tiers_: The first two Games entries (Clash of Clans, Temple Run) contribute about double the amount of ratings (1.7-2.1 M ratings) as compared to the last two (Candy Crash Saga and Angry Birds; 0.8-1 M ratings).
 
-- A single app in the genre of Photo & Video (Instagram, ~2.2 M ratings, the second-highest in the top 10) dominates: _Instagram plays alone in multimedia_.
-  - It is noteworthy that Instagram alone (16%) equals both apps from Music (Pandora - Music & Radio and Spotify Music, 15%) in terms of total ratings. That is about double than the last entry in the Genre of Reference (Bible, #7 of the top 10 with ~7% of the total ratings).
+- _Social dominated by Facebook_: The genre of Social Networking uptakes ~27% of the total ratings, however the first entry (Facebook, ~3 M ratings, the highest in the top 10) clearly wins over the second (Pinterest, 1.1 M ratings).
+
+- _Instagram grows alone_: A single app in the genre of Photo & Video (Instagram, ~2.2 M ratings, the second-highest in the top 10).
+  - It is noteworthy that Instagram (16%) equals both apps from Music (Pandora - Music & Radio and Spotify Music, 15%) in terms of total ratings.
+  - That percentage is roughly double than the only entry in the Genre of Reference (Bible, #7 of the top 10 with ~7% of the total ratings).
 
 **8. Take a look on the data you retrieved in the question 6. Give some insights.**
 /*There are 490 best rated apps, however the 10 most rated of them are included here*/

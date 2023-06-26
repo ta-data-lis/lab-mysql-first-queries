@@ -56,9 +56,19 @@ Catalogs, with 10 apps
 10. Angry Birds
 
 **6. Take the 10 apps best rated by users.**
-/*There are >10 (490) best rated apps (user_rating value = 5)*/
-/*I filtered them by "most rated" (rating_count_tot) as a second criterion*/
-/*Head Soccer, Plants vs. Zombies, Sniper 3D Assassin: Shoot to Kill Gun Game, Geometry Dash Lite, Infinity Blade, Geometry Dash, Domino's Pizza USA, CSR Racing 2, Pictoword: Fun 2 Pics Guess What's the Word Trivia, Plants vs. Zombies HD*/
+
+There are >10 (490) best rated apps (user_rating = 5); I filtered them further by "most rated" (rating_count_tot) as a second criterion, in order to come-up with the 10 shown below:
+1. Head Soccer
+2. Plants vs. Zombies
+3. Sniper 3D Assassin: Shoot to Kill Gun Game
+4. Geometry Dash Lite
+5. Infinity Blade
+6. Geometry Dash
+7. Domino's Pizza USA
+8. CSR Racing 2
+9. Pictoword: Fun 2 Pics Guess What's the Word Trivia
+10. Plants vs. Zombies HD
+
 **7. Take a look on the data you retrieved in the question 5. Give some insights.**
 /*The two most rated apps (Facebook, Instagram) belong to the same company (Meta Platforms)*/
 /*The three most rated apps (Facebook, Instagram, Clash of Titans) have ~50% of the total reviews*/

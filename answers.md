@@ -40,10 +40,21 @@ Games, with 3357 rated apps
 Again, Games, with 3808 apps
 
 **4. Which is the one with less?**
+
 Catalogs, with 10 apps
 
 **5. Take the 10 apps most rated.**
-/*Facebook, Instagram, Clash of Clans, Temple Run, Pandora - Music & Radio, Pinterest, Bible, Candy Crush Saga, Spotify Music, Angry Birds*/
+1. Facebook
+2. Instagram
+3. Clash of Clans
+4. Temple Run
+5. Pandora - Music & Radio
+6. Pinterest
+7. Bible
+8. Candy Crush Saga
+9. Spotify Music
+10. Angry Birds
+
 **6. Take the 10 apps best rated by users.**
 /*There are >10 (490) best rated apps (user_rating value = 5)*/
 /*I filtered them by "most rated" (rating_count_tot) as a second criterion*/

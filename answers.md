@@ -5,17 +5,43 @@
 Please, import the .csv database called *AppleStore.csv* corresponding to your operating system. Use the *data* table to query the data about Apple Store Apps and answer the following questions: 
 
 **1. Which are the different genres?**
-/*23 genres*/
-/*Book, Business, Catalogs, Education, Entertainment, Finance, Food & Drink, Games, Health & Fitness, Lifestyle, Mediucal, Music, Navigation, News, Photo & Video, Productivity, Reference, Shopping, Social Networking, Sports, Travel, Utilities, Weather*/
+
+There are 23 different genres, namely:
+1. Book
+2. Business
+3. Catalogs
+4. Education
+5. Entertainment
+6. Finance
+7. Food & Drink
+8. Games
+9. Health & Fitness
+10. Lifestyle
+11. Medical
+12. Music
+13. Navigation
+14. News
+15. Photo & Video
+16. Productivity
+17. Reference
+18. Shopping
+19. Social Networking
+20. Sports
+21. Travel
+22. Utilities
+23. Weather
+
 **2. Which is the genre with more apps rated?**
-/*Games*/
-/*with 3357 apps rated*/
+
+Games, with 3357 rated apps
+
 **3. Which is the genre with more apps?**
-/*Games*/
-/*with 3808 apps in total*/
+
+Again, Games, with 3808 apps
+
 **4. Which is the one with less?**
-/*Catalogs*/
-/*with 10 apps in total*/
+Catalogs, with 10 apps
+
 **5. Take the 10 apps most rated.**
 /*Facebook, Instagram, Clash of Clans, Temple Run, Pandora - Music & Radio, Pinterest, Bible, Candy Crush Saga, Spotify Music, Angry Birds*/
 **6. Take the 10 apps best rated by users.**

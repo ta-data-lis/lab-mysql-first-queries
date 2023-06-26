@@ -102,10 +102,19 @@ Trends in the 10 apps best rated by users (Following the assumption of question 
 
 
 **10. How could you take the top 3 regarding the user ratings but also the number of votes?**
-/*SImilar logic to the one applied in 6.*/
 
-/*Head Soccer, Plants vs. Zombies, Sniper 3D Assassin: Shoot to Kill Gun Game*/
-**11. Does people care about the price?** Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
+I would follow a similar logic to the one applied in question 6. namely:
+- Ordering the rows by user rating (user_rating) in descending order
+- Ordering the rows by maximum user rating (user_rating = 5) and by total number of votes (rating_count_tot) in descending order
+- Filtering the top 3 rows
+
+That would eventually return a top 3, from question 6. top 10:
+1. Head Soccer
+2. Plants vs. Zombies
+3. Sniper 3D Assassin: Shoot to Kill Gun Game
+
+**11. Does people care about the price?**
+
 /*Defining "care" as the rating and the total reviews people make*/
 
 /*First check: do people review apps when they like/dislike them equally?*/
@@ -120,7 +129,4 @@ Trends in the 10 apps best rated by users (Following the assumption of question 
 /*The average rating of (reviewed) paid apps is 4.05, identical to the one of free apps*/
 
 /*Price could matter (a bit) if we define only rating as "care"*/
-/*On a more broad definition of "care", that considers rating and number of reviews, no clear conclusion on the influence of price can be made*/
-
-## Deliverables 
-You need to submit a `.sql` file that includes the queries used to answer the questions above, as well as an `.md` file including your answers. 
+/*On a more broad definition of "care", that considers rating and number of reviews, no clear conclusion on the influence of price can be made*/ 

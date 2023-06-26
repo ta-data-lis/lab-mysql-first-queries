@@ -8,7 +8,7 @@ FROM lab1.applestore_windows
 ORDER BY prime_genre ASC;
 
 /*23 genres*/
-/*Book, Business, Catalogs, Education, Entertainment, Finance, Food & Drink, Games, Health & Fitness, Lifestyle, Mediucal, Music, Navigation, News, Photo & Video, Productivity, Reference, Shopping, Social Networking, Sports, Travel, Utilities, Weather*/
+/*Book, Business, Catalogs, Education, Entertainment, Finance, Food & Drink, Games, Health & Fitness, Lifestyle, Medical, Music, Navigation, News, Photo & Video, Productivity, Reference, Shopping, Social Networking, Sports, Travel, Utilities, Weather*/
 
 
 /*2. Which is the genre with more apps rated?*/

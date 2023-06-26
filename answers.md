@@ -44,6 +44,7 @@ Again, Games, with 3808 apps
 Catalogs, with 10 apps
 
 **5. Take the 10 apps most rated.**
+
 1. Facebook
 2. Instagram
 3. Clash of Clans
@@ -84,15 +85,25 @@ Trends in the 10 most rated apps:
   - That percentage is roughly double than the only entry in the Genre of Reference (Bible, #7 of the top 10 with ~7% of the total ratings).
 
 **8. Take a look on the data you retrieved in the question 6. Give some insights.**
-/*There are 490 best rated apps, however the 10 most rated of them are included here*/
-/*Head Soccer is the best (and most) rated app, followed by Plants vs. Zombies*/
-/*The top 5 of the best & most rated apps are not so close from each other (10-15% of their total ratings)*/
+
+Trends in the 10 apps best rated by users (Following the assumption of question 6. with regard to the second ranking criterion: most rated apps among the apps ranked as best by users):
+
+- _Gaming scores_: 9 out of the 10 entries are from the genre of Games (92% of the total ratings).
+
+  - The steps of change for the total ratings in this categorization are rather gradual: from 0.48 M for the 1st (Head Soccer), to 0.43 M (#2, Plants vs. Zombies), to 0.37 M (#3, Sniper 3D Assassin: Shoot to Kill Gun Game), all the way down to 0.16 M (#10, Plants vs. Zombies HD).
+
+  - Only one non-Games app (Domino's Pizza USA, Food & Drink, 8% of total ratings) makes it to the top 10 of users rating.
+
 **9. Now compare the data from questions 5 and 6. What do you see?**
-/*None of the top-10 most rated apps have a "best rated" status (5)*/
-/*The most rated app (Facebook) has the lowest user rating (3.5) out of the top-10 most rated apps*/
-/*The best rated and most rated app (Head Soccer) only has ~60% of the reviews of the last from the most rated apps (Angry Birds)*/
+
+- None of the most rated apps has a best rated status (user_rating = 5), with 8 out of 10 having a rating of 4.5. This is inherent on the scoring audience (a high total rating count means that the max value is not easy to achieve).
+
+- The most rated app (Facebook) has the lowest user rating (3.5) out of the most rated apps; also Pandora - Music & Radio scores low(er) than the majority (4). That could be an indication that the audience preference is moving away from these two apps.
+
+
 **10. How could you take the top 3 regarding the user ratings but also the number of votes?**
 /*SImilar logic to the one applied in 6.*/
+
 /*Head Soccer, Plants vs. Zombies, Sniper 3D Assassin: Shoot to Kill Gun Game*/
 **11. Does people care about the price?** Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
 /*Defining "care" as the rating and the total reviews people make*/

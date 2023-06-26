@@ -72,10 +72,13 @@ There are >10 (490) best rated apps (user_rating = 5); I filtered them further b
 **7. Take a look on the data you retrieved in the question 5. Give some insights.**
 
 In the 10 most rated apps
-- The genre of Games (most apps rated, most apps) populates 4 apps in the 10 most rated apps ranking (5.6 M ratings or ~38% of total ratings): _there is some serious competition in gaming_.
+- The genre of Games (most apps rated, most apps) populates 4 apps in the 10 most rated apps ranking (5.6 M ratings or ~38% of total ratings): _gaming is BIG and there is some serious competition in it_.
+
 -- The first two Games entries (Clash of Clans, Temple Run) contribute about double the amount of ratings (1.7-2.1 M ratings) as compared to the last two (Candy Crash Saga and Angry Birds; 0.8-1 M ratings): _gaming competition can be differentiated to two tiers._
-- There are 2 apps in the genre of Social Networking (Facebook, Pinterest)  with ~27% of the total ratings; the first one is by-far the most rated app (~3 M ratings, vs. ~2.2 M ratings for the second)
-- The single app in the genre of Photo & Video (Instagram) is also ranking #2 in terms of ratings
+
+- The genre of Social Networking uptakes ~27% of the total ratings, however here the first entry (Facebook) has clearly the role of frontrunner (~3 M ratings, the highest in the top 10): _Facebook dominates social_
+
+- A single app in the genre of Photo & Video (Instagram, ~2.2 M ratings, the second-highest in the top 10) dominates: _Instagram plays alone in multimedia_.
 
 
 

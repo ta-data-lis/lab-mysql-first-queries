@@ -1,5 +1,5 @@
 /*
-To import the .csv database
+To import the .csv object
 
 in Navigator, select Schemas
 right click > Create Schema (if the location you want to import/store the database doesn't exist)
